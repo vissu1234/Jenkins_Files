@@ -4,7 +4,8 @@ pipeline {
         stages {
             stage('Build Stage') {		
                 steps {               
-                    echo "from Build Stage"              
+                    echo "from Build Stage" 
+			sh "printenv"
 					}
             }		
     
